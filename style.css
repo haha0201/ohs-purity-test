@@ -1,0 +1,43 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  background-color: #FBEEC8;
+  background-image: url("pixel.jpg");
+}
+
+.center{
+  width:100%;
+  display: flex;
+  justify-content: center;
+}
+.small{
+  margin-top: 18px;
+  width: 650px;
+  text-align: center;
+}
+#centerText{
+  text-align: center;
+}
+input{
+  margin-right: 5px;
+}
+
+#submit{
+  margin-bottom: 15px;
+  margin-left: 10px;
+}
+#score{
+  font-size: 50px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+.yourscore{
+  font-size: 20px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+.descriptiontext{
+  text-align: center;
+  margin: none;
+}
